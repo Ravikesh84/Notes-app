@@ -18,9 +18,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://notes-app-frontend-nu.vercel.app/login",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
+    origin: "*"
   })
 );
 
